@@ -44,4 +44,4 @@ async def on_message(message):
     
     answer = eval_expr(message.content)
     if answer != None: await message.channel.send(f'{message.content} = {answer}')
-client.run('MTAwMjI5ODA4OTU3NjYxNjEwNw.GQixCq.1PIqpK92SEdVWo7xt0MI1wfvYMOFQjlr9YBuk8')
+client.run(TOKEN) #<<< Replace with the token of your bot
